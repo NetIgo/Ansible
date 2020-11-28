@@ -1,7 +1,7 @@
 ---
 - name: OK
   hosts : all
-  gather_facts: false
+
   tasks:
   - name: Create a virtual machine on given ESXi hostname
     shell: echo "Hi! Tower is working."
