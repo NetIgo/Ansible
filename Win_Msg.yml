@@ -1,0 +1,9 @@
+---
+- hosts: win
+  tasks:
+  - name: Envoie msg Windows
+    win_msg:
+      display_seconds: 5
+      msg: Message depuis Ansible
+      wait: no
+      
